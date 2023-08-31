@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Russo+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    font-family: 'Russo One', sans-serif;
+    background-image: url(imag/4229a7446f405dce7ecf144b5fe9ad0c.jpg);
+    background-repeat: no-repeat;
+    font-family: 'PT Serif', serif;
+    background-size: 100%;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+header{
+    border-bottom: 2px solid #0606f530 ;
+    height: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav .logo a {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    text-decoration: none;
+}
+ul li a{
+    transition: 0.3s;
+}
+ul li a:hover{
+    color:rgb(255, 0, 0) ;
+}
+ul li a.active{
+    color: red;
+}
+
+.menu {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+   
+}
+.btn{
+    background-color:rgba(9, 255, 247, 0.226);
+    padding:12px 24px;
+    border-radius: 12px;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+.menu .btn:hover{
+ font-weight: bolder;
+ background-color: rgb(9, 255, 247)
+}
+.content{
+    color: white;
+    height: 100vh;
+    height: calc(100vh - 100px);
+    padding-top:80px;
+}
+.content h1{
+    font-size: 60px;
+    text-align: center;
+}
+.content p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 32px;
+}
+.content .links {
+ display: flex;
+ justify-content: center;
+ column-gap: 40px;
+ margin-top: 8px;
+}
+.content .links a{
+    background-color: rgba(9, 255, 247, 0.226);
+    padding: 12px 24px;
+    border-radius: 18px;
+    transition: 0.4s;
+}
+.content .links a:hover{
+    background-color: rgb(9, 255, 247);
+}
